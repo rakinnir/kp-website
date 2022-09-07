@@ -68,6 +68,11 @@
   box-sizing: border-box;
 }
 
+/* Remove blue highlight */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* Remove default margin and font inherit*/
 * {
   margin: 0;
